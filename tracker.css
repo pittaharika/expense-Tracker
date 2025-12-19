@@ -1,0 +1,160 @@
+body{
+     font-family: "Comfortaa", sans-serif;
+}
+.header{
+    background: blue;
+    color: white;
+    padding: 25px;
+    font-size: xx-large;
+
+}
+.input-form{
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 4px #a7d5e0;
+    margin-top: 15px;
+    padding: 25px 0px;
+
+}
+#add-button{
+    background: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
+.inputs{
+    width: 30%;
+}
+.cards{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    
+}
+.card{
+    background: blue;
+    border: 0px;
+    height: 150px;
+    width: 18rem;
+
+}
+.card-body{
+    color: white;
+
+}
+
+#image{
+    width: 35px;
+    border-radius: 50%;
+     
+}
+#coin{
+    width: 55px;
+}
+
+.transaction-table{
+    border: 1px black solid;
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+    font-weight: 800;
+    box-shadow: 0px 4px 0px rgba(0,0,0, 0.5);
+    padding: 0px;
+}
+#header-row{
+    
+     background: blue;
+      text-align: center;
+}
+      
+#header-row th{
+    padding: 15px 10px;
+    color: white;
+}
+.table-data{
+    text-align: center;
+}
+.delete-button,.delete-button:hover{
+    background: red;
+    border:none;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}
+@media only screen and (max-width: 768px) {
+    .header{
+    background: black;  
+}
+.input-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+     box-shadow: 0px 0px 10px rgb(0, 0,0,0.5);
+}
+.inputs{
+    width: 75%;
+}
+#add-button{
+    background: black;   
+}
+.card-body{
+   height: 100px;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   gap: 5px;
+   justify-content: center;
+   
+}
+
+.cards{
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.card{
+    background: black;
+    height: 90px;
+    width: 170px;
+}
+.card h5{
+    display: flex;            
+    align-items: center;
+    font-size: 14px;    
+}
+.card h1{
+    display: flex;         
+    text-align: center;
+    font-size: 25px;  
+  }
+
+#image{
+    width: 25px;
+    border-radius: 50%;     
+}
+#coin{
+    width: 32px;
+}
+
+#header-row{
+    
+     background: black;
+      text-align: center;
+}
+
+
+}
